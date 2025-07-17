@@ -21,3 +21,11 @@
 `kubectl get svc`
 
 выводит список всех Kubernetes сервисов (Services) в текущем namespace.
+
+---
+
+Команда:
+
+`kubectl get pods`
+
+показывает список всех Pod'ов в текущем namespace Kubernetes.
