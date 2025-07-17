@@ -29,3 +29,17 @@
 `kubectl get pods`
 
 показывает список всех Pod'ов в текущем namespace Kubernetes.
+
+---
+
+Команда:
+
+`kubectl describe pod <pod-name>`
+
+выводит подробную информацию о Pod'е, включая:
+- события (Events)
+- статус контейнеров
+- volume'ы
+- переменные окружения
+- ресурсы
+- причины ошибок (CrashLoopBackOff, ImagePullBackOff, и т.д.)
