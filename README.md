@@ -13,3 +13,11 @@
 `kubectl get deploy`
 
 отображает список всех Deployment в текущем namespace Kubernetes.
+
+---
+
+Команда:
+
+`kubectl get svc`
+
+выводит список всех Kubernetes сервисов (Services) в текущем namespace.
