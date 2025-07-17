@@ -50,6 +50,14 @@ docker exec — запускает команду внутри уже запущ
 
 Команда:
 
+`kubectl get namespaces`
+
+показывает все пространства имён (namespaces) в Kubernetes-кластере.
+
+---
+
+Команда:
+
 `kubectl get svc`
 
 выводит список всех Kubernetes сервисов (Services) в текущем namespace.
