@@ -30,6 +30,15 @@ docker exec — запускает команду внутри уже запущ
 
 Команда:
 
+`kubectl create -f pod-example.yaml`
+`kubectl apply -f pod-example.yaml`
+
+Обе создадут Pod, указываем нужный манифест.
+
+---
+
+Команда:
+
 `docker ps`
 
 показывает список всех запущенных контейнеров на текущем clustere
